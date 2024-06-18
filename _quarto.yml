@@ -53,7 +53,6 @@ format:
     #embed-resources: true	
     #self-contained: true
     theme: 
-      light: [spacelab,customstyle.scss]
-      dark: [slate,customstyle.scss]
+      light: [lumen]
+      dark: [slate]
     toc: false
-    
