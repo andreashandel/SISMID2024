@@ -238,11 +238,11 @@ $$
 ## Model Exploration
 Explore any/all of the "IR" models in the virus models section
 
-## Homework
+<!-- ## Homework -->
 
-* If you haven't already, take a look at the "Basic Bacteria Model" app and - in as much detail as you have time - go through the "What to do" tasks. You can try yourself first, or look at the solution right away.
-* Take an especially close look at the solution for task 6, we will use a similar approach tomorrow.
-* Link to solution file is in the schedule of the class website. 
+<!-- * If you haven't already, take a look at the "Basic Bacteria Model" app and - in as much detail as you have time - go through the "What to do" tasks. You can try yourself first, or look at the solution right away. -->
+<!-- * Take an especially close look at the solution for task 6, we will use a similar approach tomorrow. -->
+<!-- * Link to solution file is in the schedule of the class website.  -->
 
 
 

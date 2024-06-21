@@ -1,0 +1,112 @@
+---
+title: "Modeling vaccines and drugs"
+date: "`r file.mtime(knitr::current_input())`"
+author: "[Andreas Handel](https://www.andreashandel.com)"
+format: 
+  revealjs:
+    theme: default
+    css: "../media/handelslides.css"
+    transition: none
+    incremental: false
+    cap-location: bottom
+    self-contained: true
+    slide-number: true
+    show-slide-number: all
+    auto-stretch: true
+    smaller: true
+bibliography: ../media/SMICourse.bib
+---
+
+## Big picture
+
+-   We generally want to understand pathogen-immune response dynamics with the eventual goal of intervening with drugs, vaccines, etc.
+
+-   Modeling of drugs is a big area in pharma knows as pharmacometrics (PM/PMX) or pharmacokinetic/pharmacodynamic (PK/PD) modeling. The term Quantitative Systems Pharmacology (QSP) is also used.
+
+## General Idea
+
+-   Build a model without an intervention that includes the components you are interested in:
+    -   Pathogen
+    -   Immune Response (optional)
+-   Add drug/treatment into the model
+
+## Example 1
+
+-   IFN treatment for HCV infection
+-   Question to answer: By what mechanism does the drug work?
+-   See "Antiviral Treatment Model" in DSAIRM and also the "Influenza Drug Model".
+
+## Example 1
+
+![](../media/hcvifndiagram.png)
+
+```{=tex}
+\begin{align}
+\dot U & = n - d_U U - \color{red}{(1-f)}bUV \\ 
+\dot I & = \color{red}{(1-f)}bUV - d_I I \\
+\dot V & = \color{blue}{(1-e)}pI - d_V V - \color{red}{(1-f)}gbUV
+\end{align}
+```
+Simplest assumption: Drug effect is constant.
+
+## Example 2
+
+![](../media/pkpdmodel.png){fig-align="center"}
+
+```{=tex}
+\begin{align}
+\dot U & = n - d_U U - bUV \\
+\dot I & = bUV - d_I I \\
+\dot V & = (1-e)pI - d_V V - gb UV \\
+\dot C & =  - d_C C, \qquad C=C+C_0 \textrm{ at } t = t_{interval} \qquad \textrm{(PK)}\\
+e & = E_{max} \frac{C^k}{C^k+C_{50}} \qquad \textrm{(PD)}
+\end{align}
+```
+
+See the "PK/PD" app in DSAIRM.
+
+
+## Example 3
+
+$$
+\begin{aligned}
+\dot{B} & = g B(1-\frac{B}{B_{max}}) - d_B B - kBI \color{blue}{- f(C)B}\\
+\dot{I} & = r BI - d_I I \\
+\color{blue}{\dot{C}} & \color{blue}{= ?}
+\end{aligned}
+$$ 
+
+A drug at concentration $C$ leads to extra killing of bacteria (PD). The drug has some time-course (PK).
+
+
+## Example 3
+
+$$
+\begin{aligned}
+\dot{B} & = g B(1-\frac{B}{B_{max}}) - d_B B - kBI  - eB\\
+\dot{I} & = r BI - d_I I \\
+\dot C & =  - d_C C, \qquad C=C+C_0 \textrm{ at } t = t_{interval} \qquad \textrm{(PK)}\\
+e & = E_{max} \frac{C^k}{C^k+C_{50}} \qquad \textrm{(PD)}
+\end{aligned}
+$$
+
+* The bad news: This model is not part of DSAIRM. 
+* The good news: We can build it ourselves!
+
+## Model Exploration
+
+
+
+* Get the code/simulation model for the Basic Bacteria model and the PK/PD model, namely `simulate_basicbacteria_ode.R` and `simulate_pkpdmodel_ode.R`. 
+
+* Take a look at both R files. All the stuff at the top (any line that starts with `#'`) is just documentation and you can mostly ignore.
+
+* Make a copy of `simulate_pkpdmodel_ode.R`. You can delete the documentation portion. Modify the code by replacing the $U/I/V$ part of the model with the $B/I$ part from the bacteria model.
+
+* This might be a bit challenging, but we'll assist.
+
+
+
+
+
+
