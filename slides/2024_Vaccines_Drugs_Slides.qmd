@@ -5,7 +5,7 @@ author: "[Andreas Handel](https://www.andreashandel.com)"
 format: 
   revealjs:
     theme: default
-    css: "../media/handelslides.css"
+    css: "./media/handelslides.css"
     transition: none
     incremental: false
     cap-location: bottom
@@ -13,8 +13,7 @@ format:
     slide-number: true
     show-slide-number: all
     auto-stretch: true
-    smaller: true
-bibliography: ../media/SMICourse.bib
+    smaller: false
 ---
 
 ## Big picture
@@ -38,7 +37,7 @@ bibliography: ../media/SMICourse.bib
 
 ## Example 1
 
-![](../media/hcvifndiagram.png)
+![](./media/hcvifndiagram.png)
 
 ```{=tex}
 \begin{align}
@@ -51,19 +50,26 @@ Simplest assumption: Drug effect is constant.
 
 ## Example 2
 
-![](../media/pkpdmodel.png){fig-align="center"}
+* Allow the drug concentration to change over time and have an explicit equation for the drug (Pharmacokinetics, PK).
+* Have some more complex mapping from drug concentration to drug impact (Pharmacodynamics, PD).
+
+![](./media/pkpdmodel.png){fig-align="center"}
+
+## Example 2
+
 
 ```{=tex}
 \begin{align}
 \dot U & = n - d_U U - bUV \\
 \dot I & = bUV - d_I I \\
 \dot V & = (1-e)pI - d_V V - gb UV \\
-\dot C & =  - d_C C, \qquad C=C+C_0 \textrm{ at } t = t_{interval} \qquad \textrm{(PK)}\\
+\dot C & =  - d_C C, \\
+C & =C+C_0 \textrm{ at } t = t_{interval} \qquad \textrm{(PK)}\\
 e & = E_{max} \frac{C^k}{C^k+C_{50}} \qquad \textrm{(PD)}
 \end{align}
 ```
 
-See the "PK/PD" app in DSAIRM.
+* See the "PK/PD" app in DSAIRM.
 
 
 ## Example 3
@@ -91,11 +97,10 @@ e & = E_{max} \frac{C^k}{C^k+C_{50}} \qquad \textrm{(PD)}
 $$
 
 * The bad news: This model is not part of DSAIRM. 
-* The good news: We can build it ourselves!
-
-## Model Exploration
+* The good news: We can build it ourselves! (**DSAIRM Level 3.**)
 
 
+## Hands-on exercise
 
 * Get the code/simulation model for the Basic Bacteria model and the PK/PD model, namely `simulate_basicbacteria_ode.R` and `simulate_pkpdmodel_ode.R`. 
 

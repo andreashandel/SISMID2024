@@ -533,6 +533,6 @@ knitr::include_graphics("./media/nri_review_fig3.png")
 ## Homework
 
 * If you haven't already, install DSAIRM and take a look at the _Basic Virus Model_ and _Basic Bacteria Model_ apps. 
-* Start looking at and going through the "What to do" tasks. You can try yourself first (bette for learning), or look at the solutions right away (only suggested if you feel completely lost).
+* Start looking at and going through the "What to do" tasks. You can try yourself first (better for learning), or look at the solutions right away (only suggested if you feel completely lost).
 * Take an especially close look at the solution for task 6 in the _Basic Bacteria_ app, we will use a similar approach tomorrow.
 * Links to solution files are in the schedule of the class website. 

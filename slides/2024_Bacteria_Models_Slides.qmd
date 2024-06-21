@@ -5,7 +5,7 @@ author: "[Andreas Handel](https://www.andreashandel.com)"
 format: 
   revealjs:
     theme: default
-    css: "../media/handelslides.css"
+    css: "./media/handelslides.css"
     transition: none
     incremental: false
     cap-location: bottom
@@ -14,13 +14,13 @@ format:
     show-slide-number: all
     auto-stretch: true
     smaller: true
-bibliography: ../media/SMICourse.bib
+bibliography: ./media/SMICourse.bib
 ---
 
 ## Basic bacteria infection model
 
 ```{r bacteriadiagram,  fig.cap='',  echo=FALSE, out.width = "80%", fig.align='center'}
-knitr::include_graphics("../media/nri_review_fig3a.png")
+knitr::include_graphics("./media/nri_review_fig3a.png")
 ```
 
 $$
@@ -35,7 +35,7 @@ $$
 ## Extended bacteria infection model
 
 ```{r bacteriadiagram2,  fig.cap='',  echo=FALSE, out.width = "80%", fig.align='center'}
-knitr::include_graphics("../media/extendedbacteriamodel.png")
+knitr::include_graphics("./media/extendedbacteriamodel.png")
 ```
 
 ```{=tex}
@@ -48,7 +48,7 @@ knitr::include_graphics("../media/extendedbacteriamodel.png")
 ## Model uses
 
 ```{r modelusefig,  echo=FALSE, fig.cap='', out.width = '90%', fig.align='center'}
-knitr::include_graphics("../media/nri_review_fig1.png")
+knitr::include_graphics("./media/nri_review_fig1.png")
 ```
 
 ## Model Exploration
@@ -86,7 +86,7 @@ $$ (This is a simpler version of the virus and immune response DSAIRM model.)
 Run model for different antigen doses ($V_0$).
 
 ```{r inoc1,  fig.cap='',  echo=FALSE, out.width = "90%", fig.align='center'}
-knitr::include_graphics("../media/inoculum_vaccine_pcb18.png")
+knitr::include_graphics("./media/inoculum_vaccine_pcb18.png")
 ```
 
 ## Model Exploration example 1
@@ -99,7 +99,7 @@ knitr::include_graphics("../media/inoculum_vaccine_pcb18.png")
 
 ::: {.column width="50%"}
 ```{r inoc2,  fig.cap='',  echo=FALSE, out.width = "90%", fig.align='center'}
-knitr::include_graphics("../media/iavvaccine-inoculum.png")
+knitr::include_graphics("./media/iavvaccine-inoculum.png")
 ```
 :::
 :::
@@ -109,13 +109,13 @@ knitr::include_graphics("../media/iavvaccine-inoculum.png")
 ::: columns
 ::: {.column width="50%"}
 ```{r stickiness1,  echo=FALSE,  fig.align='center'}
-knitr::include_graphics("../media/stickinessmodel.jpg")
+knitr::include_graphics("./media/stickinessmodel.jpg")
 ```
 :::
 
 ::: {.column width="50%"}
 ```{r stickiness2,  echo=FALSE,  fig.align='center'}
-knitr::include_graphics("../media/stickiness.png")
+knitr::include_graphics("./media/stickiness.png")
 ```
 :::
 :::
@@ -159,11 +159,10 @@ $$
 
 ## Exploration exercise
 
-* Go to the "Bacteria Model Exploration" app.
-* Instead of doing the tasks in the "What to do" section through the GUI, make an R script and write code that runs the basic bacteria model for different parameter values. 
+* Start an R script. Write code that implements a loop over a parameter of your choice, for each value calls the `simulate_basicbacteria_ode()` model function, and computes some outcome of interest.
 * You can copy/paste/modify the solution from task 6 you looked at as homework.
 
-
+* If you want more of a challenge, use the _Extended Bacteria Model_ app and write some R code to loop over parameters of your choice and plot the results (whatever outcome you consider interesting to explore).
 
 
 
