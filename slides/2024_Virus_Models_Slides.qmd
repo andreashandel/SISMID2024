@@ -5,7 +5,7 @@ author: "[Andreas Handel](https://www.andreashandel.com)"
 format: 
   revealjs:
     theme: default
-    css: "../media/handelslides.css"
+    css: "./media/handelslides.css"
     transition: none
     incremental: false
     cap-location: bottom
@@ -14,7 +14,7 @@ format:
     show-slide-number: all
     auto-stretch: true
     smaller: true
-bibliography: ../media/SMICourse.bib
+bibliography: ./media/SMICourse.bib
 ---
 
 
@@ -22,7 +22,7 @@ bibliography: ../media/SMICourse.bib
 ## Basic acute virus infection model
 
 ```{r acutevirusdiagram0,  out.width = '70%', echo=FALSE, fig.align='center'}
-knitr::include_graphics("../media/emptyvirusdiagram.png")
+knitr::include_graphics("./media/emptyvirusdiagram.png")
 ```
 
 $$
@@ -36,7 +36,7 @@ $$
 ## Basic acute virus infection model
 
 ```{r acutevirusdiagram,  out.width = '70%', echo=FALSE, fig.align='center'}
-knitr::include_graphics("../media/virusdiagram.png")
+knitr::include_graphics("./media/virusdiagram.png")
 ```
 
 $$
@@ -52,7 +52,7 @@ $$
 ## Basic chronic virus infection model
 
 ```{r virusdiagram,  out.width = '70%', echo=FALSE, fig.align='center'}
-knitr::include_graphics("../media/chronicvirusmodel.png")
+knitr::include_graphics("./media/chronicvirusmodel.png")
 ```
 
 $$
@@ -66,7 +66,7 @@ $$
 ## Basic virus infection models
 
 ```{r virusmodels,  fig.cap='Dynamics of simple viral infection models. A) acute infection. B) chronic infection.', out.width = '80%', fig.align='center', echo=FALSE}
-knitr::include_graphics("../media/virusmodels.png")
+knitr::include_graphics("./media/virusmodels.png")
 ```
 
 
@@ -96,7 +96,7 @@ $$
 The virus model diagram could be implemented as continuous or discrete (or stochastic) model.
 
 ```{r virusdiagram2,  out.width = '70%', fig.align='center', echo=FALSE}
-knitr::include_graphics("../media/chronicvirusmodel.png")
+knitr::include_graphics("./media/chronicvirusmodel.png")
 ```
 
 $$
@@ -136,7 +136,7 @@ Explore the "Basic Virus Model" app in DSAIRM
 ## Virus and Immune Response Model 1
 
 ```{r acutevirusdiagram2,  out.width = '70%', fig.align='center', echo=FALSE}
-knitr::include_graphics("../media/acutevirusir.png")
+knitr::include_graphics("./media/acutevirusir.png")
 ```
 
 ## Virus and Immune Response Model 1
@@ -164,7 +164,7 @@ knitr::include_graphics("../media/acutevirusir.png")
 ## Virus and Immune Response Model 2
 
 ```{r chronicvirusdiagram2,  out.width = '70%', fig.align='center', echo=FALSE}
-knitr::include_graphics("../media/chronicvirusir.png")
+knitr::include_graphics("./media/chronicvirusir.png")
 ```
 
 
@@ -220,7 +220,7 @@ knitr::include_graphics("../media/chronicvirusir.png")
 
 ## Model Diagram
 ```{r VirusIR,  echo=FALSE, out.width="90%", fig.align='center'}
-knitr::include_graphics("../media/virusandIRmodel.png")
+knitr::include_graphics("./media/virusandIRmodel.png")
 ```
 
 

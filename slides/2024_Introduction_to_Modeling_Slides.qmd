@@ -6,7 +6,7 @@ author: "[Andreas Handel](https://www.andreashandel.com)"
 format: 
   revealjs:
     theme: default
-    css: "../media/handelslides.css"
+    css: "./media/handelslides.css"
     transition: none
     incremental: false
     cap-location: bottom
@@ -15,14 +15,14 @@ format:
     show-slide-number: all
     auto-stretch: true
     smaller: true
-bibliography: ../media/SMICourse.bib
+bibliography: ./media/SMICourse.bib
 ---
 
 
 ## Science needs data
 
 ```{r doingscience,  echo=FALSE, fig.cap='', out.width = '100%', fig.align='center'}
-knitr::include_graphics("../media/phd_scientificmethod.gif")
+knitr::include_graphics("./media/phd_scientificmethod.gif")
 ```
 
 
@@ -39,7 +39,7 @@ knitr::include_graphics("../media/phd_scientificmethod.gif")
 
 ::: {.column width="50%"}
 ```{r expstudies,  echo=FALSE, fig.cap='', out.width = '80%', fig.align='center'}
-knitr::include_graphics("../media/cartoon_rats.jpg")
+knitr::include_graphics("./media/cartoon_rats.jpg")
 ```
 :::
 ::::
@@ -52,7 +52,7 @@ knitr::include_graphics("../media/cartoon_rats.jpg")
 * Often the only option.
 
 ```{r obsstudies,  echo=FALSE, fig.cap='Jim Borgman', out.width = '70%', fig.align='center'}
-knitr::include_graphics("../media/studies-produce-random-results.png")
+knitr::include_graphics("./media/studies-produce-random-results.png")
 ```
 
 
@@ -63,7 +63,7 @@ knitr::include_graphics("../media/studies-produce-random-results.png")
 * Often the only option.
 
 ```{r modelstudies,  echo=FALSE, fig.cap='xkcd.com', out.width = '100%', fig.align='center'}
-knitr::include_graphics("../media/xkcd_algorithm_help.png")
+knitr::include_graphics("./media/xkcd_algorithm_help.png")
 ```
 
 
@@ -78,7 +78,7 @@ knitr::include_graphics("../media/xkcd_algorithm_help.png")
 
 ::: {.column width="50%"}
 ```{r modelsketch,  echo=FALSE, fig.cap='', out.width = '100%', fig.align='center'}
-knitr::include_graphics("../media/nri_review_fig2.png")
+knitr::include_graphics("./media/nri_review_fig2.png")
 ```
 :::
 ::::
@@ -111,7 +111,7 @@ knitr::include_graphics("../media/nri_review_fig2.png")
 
 ::: {.column width="50%"}
 ```{r curvefitting2,  fig.cap="xkcd.com", echo=FALSE, out.width = '70%', fig.align='center'}
-knitr::include_graphics("../media/xkcd-curve_fitting.png")
+knitr::include_graphics("./media/xkcd-curve_fitting.png")
 ```
 :::
 ::::
@@ -121,7 +121,7 @@ knitr::include_graphics("../media/xkcd-curve_fitting.png")
 ## Non-mechanistic model example
 
 ```{r phenomodel1,  fig.cap="Wu et al 2019 Nature Communications.", echo=FALSE, out.width = '70%', fig.align='center'}
-knitr::include_graphics("../media/wu_natcomm.png")
+knitr::include_graphics("./media/wu_natcomm.png")
 ```
 
 
@@ -136,7 +136,7 @@ knitr::include_graphics("../media/wu_natcomm.png")
 
 ::: {.column width="50%"}
 ```{r xmkcml,  fig.cap="xkcd.com", echo=FALSE, out.width = '100%', fig.align='center'}
-knitr::include_graphics("../media/xkcd-scenario-forcasting.png")
+knitr::include_graphics("./media/xkcd-scenario-forcasting.png")
 ```
 :::
 ::::
@@ -153,7 +153,7 @@ knitr::include_graphics("../media/xkcd-scenario-forcasting.png")
 
 ::: {.column width="50%"}
 ```{r mldilbert,  fig.cap="xkcd.com", echo=FALSE, out.width = '80%', fig.align='center'}
-knitr::include_graphics("../media/xkcd-machine_learning.png")
+knitr::include_graphics("./media/xkcd-machine_learning.png")
 ```
 :::
 ::::
@@ -171,7 +171,7 @@ knitr::include_graphics("../media/xkcd-machine_learning.png")
 
 ::: {.column width="50%"}
 ```{r idprocess,  fig.cap="", echo=FALSE, out.width = '90%', fig.align='center'}
-knitr::include_graphics("../media/nri_review_fig3.png")
+knitr::include_graphics("./media/nri_review_fig3.png")
 ```
 :::
 ::::
@@ -193,7 +193,7 @@ $$
 
 ::: {.column width="60%"}
 ```{r predictexample2,  fig.cap='Handel & Antia 2008 J Vir', echo=FALSE, out.width = '100%', fig.align='center'}
-knitr::include_graphics("../media/handel_jvir.png")
+knitr::include_graphics("./media/handel_jvir.png")
 ```
 :::
 ::::
@@ -209,7 +209,7 @@ knitr::include_graphics("../media/handel_jvir.png")
 
 <div style="float: right; width: 50%;">
 ```{r bacteriafig1,  fig.cap="", echo=FALSE, out.width = '90%', fig.align='center'}
-knitr::include_graphics("../media/nri_review_fig3a.png")
+knitr::include_graphics("./media/nri_review_fig3a.png")
 ```
 </div>
 
@@ -222,7 +222,7 @@ knitr::include_graphics("../media/nri_review_fig3a.png")
 
 <div style="float: right; width: 50%;">
 ```{r bacteriafig2,  fig.cap="", echo=FALSE, out.width = '90%', fig.align='center'}
-knitr::include_graphics("../media/nri_review_fig3a.png")
+knitr::include_graphics("./media/nri_review_fig3a.png")
 ```
 </div>
 
@@ -249,14 +249,14 @@ knitr::include_graphics("../media/nri_review_fig3a.png")
 * ...
 
 ```{r weatherforecast,  echo=FALSE, fig.cap='www.gocomics.com/nonsequitur', out.width = '100%', fig.align='center'}
-knitr::include_graphics("../media/ns_useofpredictions.gif")
+knitr::include_graphics("./media/ns_useofpredictions.gif")
 ```
 
 
 ## Real-world examples
 Using a TB model to explore/predict cytokine-based interventions (Wigginton and Kirschner, 2001 J Imm).
 ```{r kirschnertb,  echo=FALSE, fig.cap='', out.width = '80%', fig.align='center'}
-knitr::include_graphics("../media/tbkirschner.png")
+knitr::include_graphics("./media/tbkirschner.png")
 ```
 
 
@@ -264,7 +264,7 @@ knitr::include_graphics("../media/tbkirschner.png")
 ## Real-world examples
 Targeted antiviral prophylaxis against an influenza pandemic (Germann et al 2006 PNAS).
 ```{r iraflu,  echo=FALSE, fig.cap='', out.width = '50%', fig.align='center'}
-knitr::include_graphics("../media/iraflufigure.jpg")
+knitr::include_graphics("./media/iraflufigure.jpg")
 ```
 
 
@@ -510,7 +510,7 @@ $$
 * Diagrams specify a model somewhat, but not completely. The diagram below could be implemented as ODEs or discrete time or stochastic models.
 
 ```{r bacteriadiagram,  fig.cap='',  echo=FALSE, out.width = "80%", fig.align='center'}
-knitr::include_graphics("../media/nri_review_fig3a.png")
+knitr::include_graphics("./media/nri_review_fig3a.png")
 ```
 
 
@@ -525,8 +525,14 @@ knitr::include_graphics("../media/nri_review_fig3a.png")
 
 <div style="float: right; width: 50%;">
 ```{r nribacteria,  out.width = '100%', echo=FALSE, fig.align='center'}
-knitr::include_graphics("../media/nri_review_fig3.png")
+knitr::include_graphics("./media/nri_review_fig3.png")
 ```
 </div>
 
 
+## Homework
+
+* If you haven't already, install DSAIRM and take a look at the _Basic Virus Model_ and _Basic Bacteria Model_ apps. 
+* Start looking at and going through the "What to do" tasks. You can try yourself first (bette for learning), or look at the solutions right away (only suggested if you feel completely lost).
+* Take an especially close look at the solution for task 6 in the _Basic Bacteria_ app, we will use a similar approach tomorrow.
+* Links to solution files are in the schedule of the class website. 
