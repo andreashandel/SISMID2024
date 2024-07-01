@@ -1,0 +1,47 @@
+---
+title: "Introduction to DSAIRM"
+date: "`r file.mtime(knitr::current_input())`"
+author: "[Andreas Handel](https://www.andreashandel.com)"
+format: 
+  revealjs:
+    theme: default
+    css: "./media/handelslides.css"
+    transition: none
+    incremental: false
+    cap-location: bottom
+    self-contained: true
+    slide-number: true
+    show-slide-number: all
+    auto-stretch: true
+    smaller: false
+---
+
+
+
+## DSAIRM R package
+
+* R package to learn/explore mechanistic simulation models: https://ahgroup.github.io/DSAIRM/
+* Modular design, starts with no-code approach, allows advancement to coding.
+* Each simulation app comes with model description and a set of suggested tasks that teach a specific modeling concept.
+* Full solutions to all tasks are available (on request).
+
+
+## Learning DSAIRM
+
+* The goal is to have a very low barrier to use. If you can use Excel/Prism, you can use this `r emoji::emoji('grin')`.
+* Main resource is package website: [https://ahgroup.github.io/DSAIRM/](https://ahgroup.github.io/DSAIRM/)
+* See some materials on the [SMI site.](https://andreashandel.github.io/SMIcourse/)
+* Also [this paper in BMC Immunology](https://bmcimmunol.biomedcentral.com/articles/10.1186/s12865-019-0321-0).
+
+
+## DSAIRM Strengths/Weaknesses {.smaller}
+
+* The good
+  * Starts out completely code-free.
+  * Good number of within-host modeling topics are covered.
+  * Set of guided exercises/tasks to help learn the material.
+  * Full access to underlying model code.
+* The bad
+  * Only the models I wrote are available.
+  * Custom models (e.g., for research) will require adapting one of the existing models, which means having to write code.
+  * Package name is maybe awkward (taking suggestions for better naming).
