@@ -1,131 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Website content",
-    "section": "",
-    "text": "Welcome to the website for the course/module called Infectious Diseases, Immunology and Within-Host Models, which is part of the 2024 Summer Institute in Statistics and Modeling in Infectious Diseases (SISMID).\nThe course is taught by Andreas Handel and Paul Thomas.\n\nWebsite content\nThe Syllabus provides a brief overview with a few logistic details.\nThe Schedule lists the topics, with links to materials. Some of the materials are on a separate site called Simulation Modeling in Immunology which we use as the main, permanent repository for teaching materials related to this course (and other workshops).\nThe Communication section provides information on how course communications are planned to happen.\nThe Resources section contains a listing of the main sources and materials we will be using in this course, as well as links to further resources.\nThe Project section has information and instructions for a - completely optional - course project you can do if you want.\n\n\nGetting started\nStart by briefly skimming through all pages on this website. Then go through and do everything listed in the Before course start section of the Schedule page.\n\n\nNotes\nWe are a Module of SISMID. However, for our purposes, we refer to our module as a course or class, and use module for individual segments, which are further divided into units. We hope this is not too confusing.\nBy default, all links open in the current tab. You’ll likely want external ones to open in a separate tab or window. To do so, you can (with most browsers) hold the Ctrl button when clicking, or do a right-click and select open in new tab/window."
-  },
-  {
-    "objectID": "Course_Syllabus.html",
-    "href": "Course_Syllabus.html",
-    "title": "Syllabus",
-    "section": "",
-    "text": "Instructors: Paul Thomas and Andreas Handel\nCourse Meeting Time and Location: 2024-07-17 - 2024-07-19, Atlanta, GA"
-  },
-  {
-    "objectID": "Course_Syllabus.html#course-information",
-    "href": "Course_Syllabus.html#course-information",
-    "title": "Syllabus",
-    "section": "",
-    "text": "Instructors: Paul Thomas and Andreas Handel\nCourse Meeting Time and Location: 2024-07-17 - 2024-07-19, Atlanta, GA"
-  },
-  {
-    "objectID": "Course_Syllabus.html#textbook-and-other-course-material",
-    "href": "Course_Syllabus.html#textbook-and-other-course-material",
-    "title": "Syllabus",
-    "section": "Textbook and Other Course Material",
-    "text": "Textbook and Other Course Material\nAll course materials are provided. We link to all materials you need and explain how to get them."
-  },
-  {
-    "objectID": "Course_Syllabus.html#course-description",
-    "href": "Course_Syllabus.html#course-description",
-    "title": "Syllabus",
-    "section": "Course Description",
-    "text": "Course Description\nThis course provides an introduction to simulation modeling of pathogens and the immune response on the within-host level. You will learn the basic biology and immunology of several common pathogens. You will also learn about simulation models and how they can be used to study pathogen and immune response dynamics within an infected host. This course is an introductory overview course. Due to time limitations, we we will not be able to go very deep into either the biology/immunology side of things or the modeling/coding side of things. But you are certainly welcome and encouraged to dig deeper, and we will provide information and resources to allow you to learn more about the topics we cover."
-  },
-  {
-    "objectID": "Course_Syllabus.html#grading",
-    "href": "Course_Syllabus.html#grading",
-    "title": "Syllabus",
-    "section": "Grading",
-    "text": "Grading\nThis course has no grades. You will get a certificate of completion at the end."
-  },
-  {
-    "objectID": "Course_Syllabus.html#class-attendance",
-    "href": "Course_Syllabus.html#class-attendance",
-    "title": "Syllabus",
-    "section": "Class Attendance",
-    "text": "Class Attendance\nAttendance is not required, but we hope you will attend all sessions.\nWe also hope that you will be an active participant and ask questions, join discussions, and contribute in any way you feel willing and able."
-  },
-  {
-    "objectID": "Course_Syllabus.html#prerequisites",
-    "href": "Course_Syllabus.html#prerequisites",
-    "title": "Syllabus",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nWe assume you have some basic biological and computer literacy. Some of you may know a good bit of immunology, or have solid statistical, modeling or coding experience. We understand everyone will come with different skill sets. Since this is an introductory course, we try to make things as understandable as possible for everyone. That means that some of the material might be too basic for you, will others will be new to you (and likely challenging).\nWe “promise” that you will feel bored and you will feel lost at least once during the course 😁. We hope that you will still find the majority of the material we teach interesting and helpful. Please don’t hesitate to give us feedback during the course (in real time) if you think we are going too slow or too fast."
-  },
-  {
-    "objectID": "Course_Syllabus.html#getting-help",
-    "href": "Course_Syllabus.html#getting-help",
-    "title": "Syllabus",
-    "section": "Getting Help",
-    "text": "Getting Help\nIf you have questions about any aspect of the course, please do not hesitate to talk to us."
-  },
-  {
-    "objectID": "Course_Syllabus.html#course-outline",
-    "href": "Course_Syllabus.html#course-outline",
-    "title": "Syllabus",
-    "section": "Course Outline",
-    "text": "Course Outline\nFor an outline of the course, please see the course Schedule document."
-  },
-  {
-    "objectID": "Course_Resources.html",
-    "href": "Course_Resources.html",
-    "title": "Course Resources",
-    "section": "",
-    "text": "This page lists resources and materials that we’ll be using in the course. At the bottom, we point you to further resources that might be of interest.\nNote that some of the listed resources are dynamic and ever changing. That means occasionally links might not work, sites go offline, chapters in online books get re-arranged, etc. If you notice anything that’s not quite right, let us know.\n\nPapers\n\nSimulation Modelling for Immunologists. An introduction we wrote on the topic. You will see a lot of overlap between that paper and the course materials. You might want to read the paper before the course, then maybe re-read a few more times during and after the course.\nWe’ll mention primary research papers in the course. For your convenience, this zip file contains most of those references (and some more that we might not get to cover).\n\n\n\nSoftware\n\nWe’ll be using R and the Dynamical Systems Approach to Immune Response Modeling (DSAIRM) package for the course. We also recommend installing and using RStudio. For more details on how to download and install all needed software, see the links in the Schedule page.\n\n\n\nOther online materials\n\nThe majority of materials for the course are on our Simulation Modeling in Immunology (SMI) website. You’ll find materials from this and prior years there.\n\n\n\nFurther Resources\n\nThere are many further resources available. We list some of them in the Resources section of the SMI website.\nFor a list of terms that are commonly used in Immunology and Modeling see this Glossary on the SMI website."
-  },
-  {
-    "objectID": "Course_Communication.html",
-    "href": "Course_Communication.html",
-    "title": "Course Communication",
-    "section": "",
-    "text": "Since SISMID is in-person this year, thus the main mode of communication will be face-to-face 😊.\nThere is also a Slack channel for this module. We will monitor it, so you can send us a message there. And of course feel free to reach out to us by email as well."
-  },
-  {
-    "objectID": "Course_Project.html",
-    "href": "Course_Project.html",
-    "title": "Course Project Information",
-    "section": "",
-    "text": "Overview\nThis document contains suggestions for a completely optional course project. If you have any questions related to a potential project, we’ll be happy to discuss it with you.\n\n\nProject Topic Ideas\nYou might already have a specific question or system in mind that you are interested in modeling. Or maybe this course leads to some ideas. If you are new to modeling, it might be difficult to decide what questions can be suitably addressed using simulations models. Some thoughts on this can be found in this review paper we wrote. We discuss 3 major model uses, namely Exploration, Prediction and Fitting.\nGiven the shortness of time and the complexity of the approach, doing something that involves fitting data to models is maybe not suitable, unless you already have good R coding and model fitting experience (e.g. fitting statistical/phenomenological models). I suggest that if you want to try a project within the timeframe of the course, focus on doing an Exploration project.\n\n\nProject Implementation Ideas\nHere are some general pointers on how you could go about doing a project, depending on your comfort level writing models and code. There are obviously trade-offs among those approaches. The easier ones (no model building, no coding) are less flexible, the more flexible ones require more coding. Pick the one that works well for your skill and interest level.\n\nRequires no model building and no coding: Use one of the apps included in DSAIRM, choose parameter values that correspond to the system you are trying to model, then explore the model through the graphical user interface.\nRequires no model building and a little bit of coding: Use one of the apps included in DSAIRM. Instead of accessing it through the graphical interface, write a few lines of code that call the simulator functions. See level 2 description in the DSAIRM tutorial.\nRequires model building but no coding: Use the modelbuilder R package to build your own model and explore it graphically. Note that modelbuilder is in early stages of development. See the package website for more details. It should work, but you might encounter bugs. If so, let us know. Also, at this stage modelbuilder is not suitable to build very complex models, so if you use it, keep your model simple.\nRequires some model building and coding: Use one of the apps included in DSAIRM. Get the code for the model you are interested in, modify it to fit your system. Then run it to analyze your system and answer your question. See level 3 description in the DSAIRM tutorial.\nRequires some model building and coding: Use the modelbuilder R package to build an initial version of your model. Export the model code from modelbuilder, edit further and run the code to answer your question.\n\n\n\nProject Logistics\nTo repeat, this is completely optional, so if you don’t have the time or interest, you can just focus on learning the course material and not try your own project. If you do try, it is completely up to you how to structure your project. You can just play around, or you can try to write a formal report/paper (e.g., using Quarto). Given the shortness of time, it might be tricky to try and form teams with others and do a project as a group, but you are certainly welcome to try and do so.\nIf you get results from your project that you think are worth sharing, let us know. We will be happy to provide feedback and comments. If any projects advance enough and have enough results that it is worth sharing with the group, we plan to allow some time at the end for anyone who wants to present and discuss what they did. If you want to do that, let us know.\n\n\nOther possible project ideas\nHere are two other types of projects you could give a try:\n\nBuild a new model in modelbuilder, explore it either through modelbuilder or on your own and write some report (I suggest using Quarto for that but you can use anything) about what you did and found. I’m starting to build a library of models that could be included in modelbuilder and used by others. So if you end up with a nice, well documented and suitable model, I would love to include it in modelbuilder for others to use or build on. You would of course be credited as model contributor.\nI’m always looking to include more apps into DSAIRM. You could try to build a new model (using one of the existing _simulate..._ functions and adjusting it), together with documentation. For the documentation, this would need to be written as RMarkdown (Rmd) file. Here is an example of the Rmd file for the basic bacteria model that you can look at and use as template. You can ignore the R code and just replace the existing text with text for your model/app. The The Model and What to do sections are the most important ones. If suitable, I’d love to integrate your app into DSAIRM. You’d of course be listed as package contributor."
-  },
-  {
-    "objectID": "Course_Schedule.html",
-    "href": "Course_Schedule.html",
-    "title": "SISMID 2024 Course Schedule",
-    "section": "",
-    "text": "This is the schedule for the course. From here, you can access all instructions and materials to help you prepare.\nThis schedule is subject to change, so check for updates."
-  },
-  {
-    "objectID": "Course_Schedule.html#notes",
-    "href": "Course_Schedule.html#notes",
-    "title": "SISMID 2024 Course Schedule",
-    "section": "Notes",
-    "text": "Notes\n\nAbbreviations used:\n\nDSAIRM = Dynamical Systems Approach to Immune Response Modeling - R package.\nSMI = Simulation Modeling in Immunology - website.\n\nSISMID was online in 2020-2022 and we recorded our lectures. These recorded lectures and a lot of other materials are available on our Simulation Modeling for Immunology (SMI) website. This website is continuously online and will receive future updates as we produce more content.\nThis course website will likely remain online, but will not be further updated after the course.\nThe DSAIRM package and other mentioned R packages will continue to be available and might receive occasional updates.\nSome of the slides below are in html. If you prefer pdf, it is easiest to open the html file in your browser, click the menu bar on the bottom left, under “Tools”, choose “PDF export mode” and then go to the print menu of the browser and print/save as pdf. The Chrome browser generally works best for this."
-  },
-  {
-    "objectID": "Course_Schedule.html#before-course-start",
-    "href": "Course_Schedule.html#before-course-start",
-    "title": "SISMID 2024 Course Schedule",
-    "section": "Before course start",
-    "text": "Before course start\nPlease go through the tasks below to come prepared to the class.\n\nGeneral\n\nFamiliarize yourself with this website. Read through all of it.\nTake a brief look at the companion Simulation Modeling for Immunology (SMI) website.\nBrowse through our paper Simulation Modelling for Immunologists.\n\n\n\nSoftware\n\nInstall and set up R and Rstudio. Here are some brief instructions.\nSet up and learn about DSAIRM. Go through all the content under Modeling -&gt; DSAIRM on the SMI website\nIf you can, take an initial look at these apps in DSAIRM: Basic Bacteria Model and Basic Virus Model. Play around with them and go through (some of) the tasks to get familiar with DSAIRM."
-  },
-  {
-    "objectID": "Course_Schedule.html#course-schedule",
-    "href": "Course_Schedule.html#course-schedule",
-    "title": "SISMID 2024 Course Schedule",
-    "section": "Course schedule",
-    "text": "Course schedule\n\nWednesday 7/17\nUnit 1, 1:30PM – 3PM: Introduction to Immunology (Paul) - Slides\nUnit 2, 3.30PM – 5PM: Introduction to Modeling (Andreas) - Slides\nHomework for tomorrow:\n\nIf you haven’t already, take a look at the Basic Virus Model and Basic Bacteria Model apps in DSAIRM and go through - in as much detail as you have time - the “What to do” tasks. You can try yourself first, or [walk through it with the help of the solutions.\nBasic Virus solution, Basic Bacteria solution.\nTake an especially close look at the solution for task 6 and the R code for it, we will use a similar approach tomorrow.\n\n\n\nTuesday 7/18\nUnit 3, 8.30AM - 10AM: Immunology of viral infections (Paul) - Slides\nUnit 4, 10.30AM - noon: Modeling of viral infections (Andreas) - Slides\nUnit 5, 1:30PM – 3PM: Immunology of bacterial infections (Paul) - Slides\nUnit 6 3.30PM – 5PM: Modeling of bacterial infections (Andreas) - Slides.\n\n\nWednesday 7/20\nUnit 7, 8.30AM - 10AM: Immunology of drug and vaccine treatments (Paul) - Slides\nUnit 8, 10.30AM - noon: Modeling drug and vaccine treatments (Andreas) - Slides\nUnit 9, 1:30PM – 3PM: A worked modeling example (Andreas)\nUnit 10, 3.30PM – 5PM: Topics as requested (Paul/Andreas)"
-  },
-  {
-    "objectID": "Course_Schedule.html#any-time-during-and-after-the-course",
-    "href": "Course_Schedule.html#any-time-during-and-after-the-course",
-    "title": "SISMID 2024 Course Schedule",
-    "section": "Any time during and after the course",
-    "text": "Any time during and after the course\n\nGo through any additional content on the SMI website that you are interested in.\nExplore the DSAIRM models.\nAsk us questions about any of those topics."
-  },
-  {
     "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#motivation",
     "href": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#motivation",
     "title": "Building and curating your brand (online presence)",
@@ -168,11 +42,32 @@
     "text": "The professional networking site. Almost required to be on there.\nYou can customize your profile a good bit.\nA good way to showcase yourself.\nGreat for connecting with others.\n\n\n\nLinkedIn is useful even if you are not looking for a job!\nBuild a good profile early, not a week before you start applying.\nSome features require a subscription.\nExamples:\n\nStephanie Eick\nAndrew Heiss\n\n\n\n\n\n\nWho of you is on LinkedIn? (How) do you use it? How up-to-date is your profile?"
   },
   {
-    "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#employer",
-    "href": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#employer",
+    "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#employer-listings",
+    "href": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#employer-listings",
     "title": "Building and curating your brand (online presence)",
-    "section": "Employer",
-    "text": "Employer\n\nDepending on the employer, you might have a company entry.\nUsually not directly controlled by you, not very flexible.\nUse it as needed, but if possible, link to your own main web presence.\nExamples:\n\nAndreas Handel\nJim Rogers"
+    "section": "Employer listings",
+    "text": "Employer listings\n\nDepending on the employer, you might have a company entry.\nUsually not directly controlled by you, not very flexible.\nUse it as needed, but if possible, link to your own main web presence.\nExamples:\n\nAndreas Handel\nJim Rogers"
+  },
+  {
+    "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#social-media",
+    "href": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#social-media",
+    "title": "Building and curating your brand (online presence)",
+    "section": "Social Media",
+    "text": "Social Media\nFacebook, Instagram, TikTok, etc.\n\nWidely used.\nPotentially good way to stay connected with others.\nMain use is social, not professional.\nHard to keep professional and personal lives separated (unless you create 2 accounts).\nSome people use those sites for professional purposes. Less so in academia/research.\nExamples:\n\nUGA Infant Research Lab/Janet Frick\nMiss Excel\n\n\n\n\nHas anyone had experiences using social media in a professional setting?"
+  },
+  {
+    "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#more-social-media",
+    "href": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#more-social-media",
+    "title": "Building and curating your brand (online presence)",
+    "section": "More social media",
+    "text": "More social media\nMastodon, X/Twitter, etc.\n\nTwitter used to be good for learning about new developments in an area. Musk ruined it.\nMastodon is the less toxic X alternative, not quite as good.\nIf you engage, you need to decide if you want to mix professional and personal.\nConsciously decide on the topics you will engage with.\nLearn ‘the rules’ (tweet/re-tweet/reply/like/hashtags/etc.).\n\n\n\nAnyone using Mastodon or X? How do you use it?"
+  },
+  {
+    "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#blogging-sites",
+    "href": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#blogging-sites",
+    "title": "Building and curating your brand (online presence)",
+    "section": "Blogging sites",
+    "text": "Blogging sites\nMedium, Substack, etc.\n\nPlatforms for blog posts.\nThey promote posts, you can potentially get paid.\nYou can reach a wider audience than on your personal blog.\nNot all content is freely available, some is behind a paywall.\nNot as much control as on your own website.\nExamples:\n\nKristian Lum\nEric Topol/Ground Truths\n\n\n\n\nAnyone read or write using a blogging site?"
   },
   {
     "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#section-1",
@@ -187,34 +82,6 @@
     "title": "Building and curating your brand (online presence)",
     "section": "",
     "text": "Good for teaching, also useful for outreach.\nYou can create your own channels for specific projects.\nIn these days of online conferences, your presentation might be recorded. Link to it.\n\n\n\n\nExamples:\n\nStatQuest with Josh Starmer\nDavid Robinson\n\n\n\n\n\n\nAnyone producing YouTube content? Or regularly consuming scientific/professional YouTube content?"
-  },
-  {
-    "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#section-3",
-    "href": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#section-3",
-    "title": "Building and curating your brand (online presence)",
-    "section": "",
-    "text": "Great for learning about new developments in your field.\nGood way to engage with the community and to announce your work.\nNeed to be used (active and/or passive) for it to be useful.\nDecide if you want to mix professional and personal.\n\n\n\n\nYou can create/use multiple accounts.\nConsciously decide on the topics you will engage with.\nLearn ‘the rules’ (tweet/re-tweet/reply/like/hashtags/etc.).\nExamples:\n\nStephanie Eick\nAndrew Heiss\nKareem Carr\n\n\n\n\n\nAnyone using Twitter? How do you use it?"
-  },
-  {
-    "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#section-4",
-    "href": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#section-4",
-    "title": "Building and curating your brand (online presence)",
-    "section": "",
-    "text": "A great tool to manage projects and work collaboratively.\nGreat way to showcase any ‘products’ you’ve made.\nLets you create simple websites fairly easily.\nSomewhat technical, takes time to get used to it.\n\n\n\n\nShowing you know/use GitHub is a desirable skill by itself.\nGreat perks for students.\nExamples:\n\nAwsome Data Science\nBasic stats course\nMADA\n\n\n\n\n\nAnyone using GitHub? How do you use it?"
-  },
-  {
-    "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#section-5",
-    "href": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#section-5",
-    "title": "Building and curating your brand (online presence)",
-    "section": "",
-    "text": "Good for teaching, also useful for outreach.\nYou can create your own channels for specific projects.\nIn these days of online conferences, your presentation might be recorded. Link to it.\n\n\n\n\nExamples:\n\nJeff Leek\nDavid Robinson\nKayla Adcock (TEDEd)\n\n\n\n\n\nAnyone producing YouTube content? Or regularly consuming scientific/professional YouTube content?"
-  },
-  {
-    "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#other-special-purpose-platforms",
-    "href": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#other-special-purpose-platforms",
-    "title": "Building and curating your brand (online presence)",
-    "section": "Other special purpose platforms",
-    "text": "Other special purpose platforms\n\nInstagram/Snapchat/TikTok/etc.\nOften special purpose (e.g. posting images).\nA few academics/scientists use those, but not many.\nI have little experience.\nExamples:\n\nChelsea Parlett on TikTok.\nLaurel Bristow on Instagram.\nKenya Murray on Instagram.\n\n\n\nAnyone with experience producing or consuming scientific/professional content on those platforms?"
   },
   {
     "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#podcasts",
@@ -322,18 +189,11 @@
     "text": "Some advertising is needed\n\nIf people don’t find you, your impact is low.\nCross-link to your various online locations.\nUse platforms to promote your content (e.g. LinkedIn).\nDon’t worry too much about search engine optimization (SEO). If you create good and persistent content, you should soon show up on top."
   },
   {
-    "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#keep-track-a-bit",
-    "href": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#keep-track-a-bit",
+    "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#keep-track-a-little-bit",
+    "href": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#keep-track-a-little-bit",
     "title": "Building and curating your brand (online presence)",
-    "section": "Keep track (a bit)",
-    "text": "Keep track (a bit)\n\nSet Google alerts for your name (or other keywords).\nConsider measuring your impact (e.g. Site visits, Software downloads, Twitter followers, GitHub stars).\nThose metrics can be useful for career advancement, but don’t get too hung up about them.\nExamples:\n\nDSAIDE R package"
-  },
-  {
-    "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#some-further-comments",
-    "href": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#some-further-comments",
-    "title": "Building and curating your brand (online presence)",
-    "section": "Some further comments",
-    "text": "Some further comments\n\nYou could have more than one ‘online brand’ (but that’s a lot of work).\nKeep things reasonable updated and working.\nContent (e.g. blog posts, videos) can be any length and level of difficulty.\nIf you have the discipline, consider creating content on a regular schedule (scheduled release is an option)."
+    "section": "Keep track (a little bit)",
+    "text": "Keep track (a little bit)\n\nSet Google alerts for your name (or other keywords).\nConsider measuring your impact (e.g. Site visits, Software downloads, Twitter followers, GitHub stars).\nThose metrics can be useful for career advancement, but don’t get too hung up about them.\nExamples:\n\nDSAIDE R package"
   },
   {
     "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#warnings",
@@ -350,45 +210,129 @@
     "text": "Summary\nYou need an online presence that you control.\n\nMinimum: Decent LinkedIn site, maybe augmented with Google Scholar or similar.\nBetter: Also own website with links to your other online outlets.\nAdvanced: Also become active on certain platforms (regular blogs/videos/podcasts/tweets, etc.)."
   },
   {
-    "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#further-resources",
-    "href": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#further-resources",
-    "title": "Building and curating your brand (online presence)",
-    "section": "Further Resources",
-    "text": "Further Resources\n\nThe A to Z of social media for academia\nA nice blog post giving some tips on Twitter use (as academic).\nAnother nice blog post discussing social media use for scientists.\nSimilar presentation by Andrew Heiss with additional information\nA neat example how one can get a job based on public work\nWhy you should start a blog"
+    "objectID": "Course_Syllabus.html",
+    "href": "Course_Syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Instructors: Paul Thomas and Andreas Handel\nCourse Meeting Time and Location: 2024-07-17 - 2024-07-19, Atlanta, GA"
   },
   {
-    "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#social-media",
-    "href": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#social-media",
-    "title": "Building and curating your brand (online presence)",
-    "section": "Social Media",
-    "text": "Social Media\nFacebook, Instagram, TikTok, etc.\n\nWidely used.\nPotentially good way to stay connected with others.\nMain use is social, not professional.\nHard to keep professional and personal lives separated (unless you create 2 accounts).\nSome people use those sites for professional purposes. Less so in academia/research.\nExamples:\n\nUGA Infant Research Lab/Janet Frick\nMiss Excel\n\n\n\n\nHas anyone had experiences using social media in a professional setting?"
+    "objectID": "Course_Syllabus.html#course-information",
+    "href": "Course_Syllabus.html#course-information",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Instructors: Paul Thomas and Andreas Handel\nCourse Meeting Time and Location: 2024-07-17 - 2024-07-19, Atlanta, GA"
   },
   {
-    "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#more-social-media",
-    "href": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#more-social-media",
-    "title": "Building and curating your brand (online presence)",
-    "section": "More social media",
-    "text": "More social media\nMastodon, X/Twitter, etc.\n\nTwitter used to be good for learning about new developments in an area. Musk ruined it.\nMastodon is the less toxic X alternative, not quite as good.\nIf you engage, you need to decide if you want to mix professional and personal.\nConsciously decide on the topics you will engage with.\nLearn ‘the rules’ (tweet/re-tweet/reply/like/hashtags/etc.).\n\n\n\nAnyone using Mastodon or X? How do you use it?"
+    "objectID": "Course_Syllabus.html#textbook-and-other-course-material",
+    "href": "Course_Syllabus.html#textbook-and-other-course-material",
+    "title": "Syllabus",
+    "section": "Textbook and Other Course Material",
+    "text": "Textbook and Other Course Material\nAll course materials are provided. We link to all materials you need and explain how to get them."
   },
   {
-    "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#blogging-sites",
-    "href": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#blogging-sites",
-    "title": "Building and curating your brand (online presence)",
-    "section": "Blogging sites",
-    "text": "Blogging sites\nMedium, Substack, etc.\n\nPlatforms for blog posts.\nThey promote posts, you can potentially get paid.\nYou can reach a wider audience than on your personal blog.\nNot all content is freely available, some is behind a paywall.\nNot as much control as on your own website.\nExamples:\n\nKristian Lum\nEric Topol/Ground Truths\n\n\n\n\nAnyone read or write using a blogging site?"
+    "objectID": "Course_Syllabus.html#course-description",
+    "href": "Course_Syllabus.html#course-description",
+    "title": "Syllabus",
+    "section": "Course Description",
+    "text": "Course Description\nThis course provides an introduction to simulation modeling of pathogens and the immune response on the within-host level. You will learn the basic biology and immunology of several common pathogens. You will also learn about simulation models and how they can be used to study pathogen and immune response dynamics within an infected host. This course is an introductory overview course. Due to time limitations, we we will not be able to go very deep into either the biology/immunology side of things or the modeling/coding side of things. But you are certainly welcome and encouraged to dig deeper, and we will provide information and resources to allow you to learn more about the topics we cover."
   },
   {
-    "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#employer-listings",
-    "href": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#employer-listings",
-    "title": "Building and curating your brand (online presence)",
-    "section": "Employer listings",
-    "text": "Employer listings\n\nDepending on the employer, you might have a company entry.\nUsually not directly controlled by you, not very flexible.\nUse it as needed, but if possible, link to your own main web presence.\nExamples:\n\nAndreas Handel\nJim Rogers"
+    "objectID": "Course_Syllabus.html#grading",
+    "href": "Course_Syllabus.html#grading",
+    "title": "Syllabus",
+    "section": "Grading",
+    "text": "Grading\nThis course has no grades. You will get a certificate of completion at the end."
   },
   {
-    "objectID": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#keep-track-a-little-bit",
-    "href": "building-your-brand-presentation/2024-SISMID-building-your-brand.html#keep-track-a-little-bit",
-    "title": "Building and curating your brand (online presence)",
-    "section": "Keep track (a little bit)",
-    "text": "Keep track (a little bit)\n\nSet Google alerts for your name (or other keywords).\nConsider measuring your impact (e.g. Site visits, Software downloads, Twitter followers, GitHub stars).\nThose metrics can be useful for career advancement, but don’t get too hung up about them.\nExamples:\n\nDSAIDE R package"
+    "objectID": "Course_Syllabus.html#class-attendance",
+    "href": "Course_Syllabus.html#class-attendance",
+    "title": "Syllabus",
+    "section": "Class Attendance",
+    "text": "Class Attendance\nAttendance is not required, but we hope you will attend all sessions.\nWe also hope that you will be an active participant and ask questions, join discussions, and contribute in any way you feel willing and able."
+  },
+  {
+    "objectID": "Course_Syllabus.html#prerequisites",
+    "href": "Course_Syllabus.html#prerequisites",
+    "title": "Syllabus",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nWe assume you have some basic biological and computer literacy. Some of you may know a good bit of immunology, or have solid statistical, modeling or coding experience. We understand everyone will come with different skill sets. Since this is an introductory course, we try to make things as understandable as possible for everyone. That means that some of the material might be too basic for you, will others will be new to you (and likely challenging).\nWe “promise” that you will feel bored and you will feel lost at least once during the course 😁. We hope that you will still find the majority of the material we teach interesting and helpful. Please don’t hesitate to give us feedback during the course (in real time) if you think we are going too slow or too fast."
+  },
+  {
+    "objectID": "Course_Syllabus.html#getting-help",
+    "href": "Course_Syllabus.html#getting-help",
+    "title": "Syllabus",
+    "section": "Getting Help",
+    "text": "Getting Help\nIf you have questions about any aspect of the course, please do not hesitate to talk to us."
+  },
+  {
+    "objectID": "Course_Syllabus.html#course-outline",
+    "href": "Course_Syllabus.html#course-outline",
+    "title": "Syllabus",
+    "section": "Course Outline",
+    "text": "Course Outline\nFor an outline of the course, please see the course Schedule document."
+  },
+  {
+    "objectID": "Course_Resources.html",
+    "href": "Course_Resources.html",
+    "title": "Course Resources",
+    "section": "",
+    "text": "This page lists resources and materials that we’ll be using in the course. At the bottom, we point you to further resources that might be of interest.\nNote that some of the listed resources are dynamic and ever changing. That means occasionally links might not work, sites go offline, chapters in online books get re-arranged, etc. If you notice anything that’s not quite right, let us know.\n\nPapers\n\nSimulation Modelling for Immunologists. An introduction we wrote on the topic. You will see a lot of overlap between that paper and the course materials. You might want to read the paper before the course, then maybe re-read a few more times during and after the course.\nWe’ll mention primary research papers in the course. For your convenience, this zip file contains most of those references (and some more that we might not get around to talking about).\n\n\n\nSoftware\n\nWe’ll be using R and the Dynamical Systems Approach to Immune Response Modeling (DSAIRM) package for the course. We also recommend installing and using RStudio. For more details on how to download and install all needed software, see the links in the Schedule page.\n\n\n\nOther online materials\n\nThe majority of materials for the course are on our Simulation Modeling in Immunology (SMI) website. You’ll find materials from this and prior years there.\n\n\n\nFurther Resources\n\nWe have moved a listin of further resources to the Resources section of the SMI website.\nFor a list of terms that are commonly used in Immunology and Modeling see this Glossary on the SMI website."
+  },
+  {
+    "objectID": "Course_Communication.html",
+    "href": "Course_Communication.html",
+    "title": "Course Communication",
+    "section": "",
+    "text": "Since SISMID is in-person this year, thus the main mode of communication will be face-to-face 😊.\nThere is also a Slack channel for this module. We will monitor it, so you can send us a message there. And of course feel free to reach out to us by email as well."
+  },
+  {
+    "objectID": "Course_Project.html",
+    "href": "Course_Project.html",
+    "title": "Course Project Information",
+    "section": "",
+    "text": "Overview\nThis document contains suggestions for a completely optional course project. If you have any questions related to a potential project, we’ll be happy to discuss it with you.\n\n\nProject Topic Ideas\nYou might already have a specific question or system in mind that you are interested in modeling. Or maybe this course leads to some ideas. If you are new to modeling, it might be difficult to decide what questions can be suitably addressed using simulations models. Some thoughts on this can be found in this review paper we wrote. We discuss 3 major model uses, namely Exploration, Prediction and Fitting.\nGiven the shortness of time and the complexity of the approach, doing something that involves fitting data to models is maybe not suitable, unless you already have good R coding and model fitting experience (e.g. fitting statistical/phenomenological models). I suggest that if you want to try a project within the timeframe of the course, focus on doing an Exploration project.\n\n\nProject Implementation Ideas\nHere are some general pointers on how you could go about doing a project, depending on your comfort level writing models and code. There are obviously trade-offs among those approaches. The easier ones (no model building, no coding) are less flexible, the more flexible ones require more coding. Pick the one that works well for your skill and interest level.\n\nRequires no model building and no coding: Use one of the apps included in DSAIRM, choose parameter values that correspond to the system you are trying to model, then explore the model through the graphical user interface.\nRequires no model building and a little bit of coding: Use one of the apps included in DSAIRM. Instead of accessing it through the graphical interface, write a few lines of code that call the simulator functions. See level 2 description in the DSAIRM tutorial.\nRequires model building but no coding: Use the modelbuilder R package to build your own model and explore it graphically. Note that modelbuilder is in early stages of development. See the package website for more details. It should work, but you might encounter bugs. If so, let us know. Also, at this stage modelbuilder is not suitable to build very complex models, so if you use it, keep your model simple.\nRequires some model building and coding: Use one of the apps included in DSAIRM. Get the code for the model you are interested in, modify it to fit your system. Then run it to analyze your system and answer your question. See level 3 description in the DSAIRM tutorial.\nRequires some model building and coding: Use the modelbuilder R package to build an initial version of your model. Export the model code from modelbuilder, edit further and run the code to answer your question.\n\n\n\nProject Logistics\nTo repeat, this is completely optional, so if you don’t have the time or interest, you can just focus on learning the course material and not try your own project. If you do try, it is completely up to you how to structure your project. You can just play around, or you can try to write a formal report/paper (e.g., using Quarto). Given the shortness of time, it might be tricky to try and form teams with others and do a project as a group, but you are certainly welcome to try and do so.\nIf you get results from your project that you think are worth sharing, let us know. We will be happy to provide feedback and comments. If any projects advance enough and have enough results that it is worth sharing with the group, we plan to allow some time at the end for anyone who wants to present and discuss what they did. If you want to do that, let us know.\n\n\nOther possible project ideas\nHere are two other types of projects you could give a try:\n\nBuild a new model in modelbuilder, explore it either through modelbuilder or on your own and write some report (I suggest using Quarto for that but you can use anything) about what you did and found. I’m starting to build a library of models that could be included in modelbuilder and used by others. So if you end up with a nice, well documented and suitable model, I would love to include it in modelbuilder for others to use or build on. You would of course be credited as model contributor.\nI’m always looking to include more apps into DSAIRM. You could try to build a new model (using one of the existing _simulate..._ functions and adjusting it), together with documentation. For the documentation, this would need to be written as RMarkdown (Rmd) file. Here is an example of the Rmd file for the basic bacteria model that you can look at and use as template. You can ignore the R code and just replace the existing text with text for your model/app. The The Model and What to do sections are the most important ones. If suitable, I’d love to integrate your app into DSAIRM. You’d of course be listed as package contributor."
+  },
+  {
+    "objectID": "Course_Schedule.html",
+    "href": "Course_Schedule.html",
+    "title": "SISMID 2024 Course Schedule",
+    "section": "",
+    "text": "This is the schedule for the course. From here, you can access all instructions and materials to help you prepare.\nThis schedule is subject to change, so check for updates."
+  },
+  {
+    "objectID": "Course_Schedule.html#notes",
+    "href": "Course_Schedule.html#notes",
+    "title": "SISMID 2024 Course Schedule",
+    "section": "Notes",
+    "text": "Notes\n\nAbbreviations used:\n\nDSAIRM = Dynamical Systems Approach to Immune Response Modeling - R package.\nSMI = Simulation Modeling in Immunology - website.\n\nSISMID was online in 2020-2022 and we recorded our lectures. These recorded lectures and a lot of other materials are available on our Simulation Modeling for Immunology (SMI) website. This website is continuously online and will receive future updates as we produce more content.\nThis course website will likely remain online, but will not be further updated after the course.\nThe DSAIRM package and other mentioned R packages will continue to be available and might receive occasional updates.\nSome of the slides below are in html. If you prefer pdf, it is easiest to open the html file in your browser, click the menu bar on the bottom left, under “Tools”, choose “PDF export mode” and then go to the print menu of the browser and print/save as pdf. The Chrome browser generally works best for this."
+  },
+  {
+    "objectID": "Course_Schedule.html#before-course-start",
+    "href": "Course_Schedule.html#before-course-start",
+    "title": "SISMID 2024 Course Schedule",
+    "section": "Before course start",
+    "text": "Before course start\nPlease go through the tasks below to come prepared to the class.\n\nGeneral\n\nFamiliarize yourself with this website. Read through all of it.\nTake a brief look at the companion Simulation Modeling for Immunology (SMI) website.\nBrowse through our paper Simulation Modelling for Immunologists.\n\n\n\nSoftware\n\nInstall and set up R and Rstudio. Follow the instructions on the RStudio page.. If you need a few more details, here are some additional brief instructions.\nSet up and learn about DSAIRM. Go through all the content under Modeling -&gt; DSAIRM on the SMI website.\nIf you can, take an initial look at these apps in DSAIRM: Basic Bacteria Model and Basic Virus Model. Play around with them and go through (some of) the tasks to get familiar with DSAIRM."
+  },
+  {
+    "objectID": "Course_Schedule.html#course-schedule",
+    "href": "Course_Schedule.html#course-schedule",
+    "title": "SISMID 2024 Course Schedule",
+    "section": "Course schedule",
+    "text": "Course schedule\n\nWednesday 7/17\nUnit 1, 1:30PM – 3PM: Introduction to Immunology (Paul) - Slides\nUnit 2, 3.30PM – 5PM: Introduction to Modeling (Andreas) - Slides\nHomework for tomorrow:\n\nIf you haven’t already, take a look at the Basic Virus Model and Basic Bacteria Model apps in DSAIRM and go through - in as much detail as you have time - the “What to do” tasks. You can try yourself first, or walk through it with the help of the solutions: Basic Virus solution, Basic Bacteria solution.\nTake an especially close look at the task 6 of the Basic Bacteria app and the solution code for it, we will use a similar approach tomorrow.\n\n\n\nTuesday 7/18\nUnit 3, 8.30AM - 10AM: Immunology of viral infections (Paul) - Slides\nUnit 4, 10.30AM - noon: Modeling of viral infections (Andreas) - Slides\nUnit 5, 1:30PM – 3PM: Immunology of bacterial infections (Paul) - Slides\nUnit 6 3.30PM – 5PM: Modeling of bacterial infections (Andreas) - Slides\n\n\nWednesday 7/20\nUnit 7, 8.30AM - 10AM: Immunology of drug and vaccine treatments (Paul) - Slides\nUnit 8, 10.30AM - noon: Modeling drug and vaccine treatments (Andreas) - Slides\nUnit 9, 1:30PM – 3PM: A worked modeling example (Andreas)\nUnit 10, 3.30PM – 5PM: Topics as requested (Paul/Andreas)"
+  },
+  {
+    "objectID": "Course_Schedule.html#any-time-during-and-after-the-course",
+    "href": "Course_Schedule.html#any-time-during-and-after-the-course",
+    "title": "SISMID 2024 Course Schedule",
+    "section": "Any time during and after the course",
+    "text": "Any time during and after the course\n\nGo through any additional content on the SMI website that you are interested in.\nExplore the DSAIRM models.\nAsk us questions about any of those topics."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Website content",
+    "section": "",
+    "text": "Welcome to the website for the course/module called Infectious Diseases, Immunology and Within-Host Models, which is part of the 2024 Summer Institute in Statistics and Modeling in Infectious Diseases (SISMID).\nThe course is taught by Andreas Handel and Paul Thomas.\n\nWebsite content\nThe Syllabus provides a brief overview with a few logistic details.\nThe Schedule lists the topics, with links to materials. Some of the materials are on a separate site called Simulation Modeling in Immunology which we use as the main, permanent repository for teaching materials related to this course (and other workshops).\nThe Communication section provides information on how course communications are planned to happen.\nThe Resources section contains a listing of the main sources and materials we will be using in this course, as well as links to further resources.\nThe Project section has information and instructions for a - completely optional - course project you can do if you want.\n\n\nGetting started\nStart by briefly skimming through all pages on this website. Then go through and do everything listed in the Before course start section of the Schedule page.\n\n\nNotes\nWe are a Module of SISMID. However, for our purposes, we refer to our module as a course or class, and use module for individual segments, which are further divided into units. We hope this is not too confusing.\nBy default, all links open in the current tab. You’ll likely want external ones to open in a separate tab or window. To do so, you can (with most browsers) hold the Ctrl button when clicking, or do a right-click and select open in new tab/window."
   }
 ]

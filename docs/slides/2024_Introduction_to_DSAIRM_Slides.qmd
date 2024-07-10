@@ -1,6 +1,6 @@
 ---
 title: "Introduction to DSAIRM"
-date: "`r file.mtime(knitr::current_input())`"
+date: today
 author: "[Andreas Handel](https://www.andreashandel.com)"
 format: 
   revealjs:
@@ -28,7 +28,7 @@ format:
 
 ## Learning DSAIRM
 
-* The goal is to have a very low barrier to use. If you can use Excel/Prism, you can use this `r emoji::emoji('grin')`.
+* The goal is to have a very low barrier to use. If you can use Excel/Prism, you can use this 😁.
 * Main resource is package website: [https://ahgroup.github.io/DSAIRM/](https://ahgroup.github.io/DSAIRM/)
 * See some materials on the [SMI site.](https://andreashandel.github.io/SMIcourse/)
 * Also [this paper in BMC Immunology](https://bmcimmunol.biomedcentral.com/articles/10.1186/s12865-019-0321-0).
@@ -45,3 +45,6 @@ format:
   * Only the models I wrote are available.
   * Custom models (e.g., for research) will require adapting one of the existing models, which means having to write code.
   * Package name is maybe awkward (taking suggestions for better naming).
+
+## DSAIRM - leveling up
+

@@ -4,7 +4,7 @@ title: Course Project Information
 
 # Overview
 
-This document contains suggestions for a completely optional course project. If you have any questions related to a potential project, we'll be happy to discuss it with you.
+This document contains suggestions for a **completely optional** course project. If you have any questions related to a potential project, we'll be happy to discuss it with you.
 
 
 # Project Topic Ideas

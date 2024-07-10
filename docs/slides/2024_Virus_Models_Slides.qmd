@@ -14,7 +14,6 @@ format:
     show-slide-number: all
     auto-stretch: true
     smaller: true
-bibliography: ./media/SMICourse.bib
 ---
 
 
