@@ -1,7 +1,7 @@
 ---
 title: "Building and curating your brand (online presence)"
 subtitle: "Slides: https://www.andreashandel.com/presentations"
-date: "`r file.mtime(knitr::current_input())`"
+date: today
 author: "[Andreas Handel](https://www.andreashandel.com)"
 format: 
   revealjs:
@@ -67,7 +67,7 @@ knitr::include_graphics("./media/seth_godin.jpg")
 ## Content types
 * Created "once", then static: blog posts, videos, ...
 * Created "once", then updated: your online CV/profile, teaching materials, ...
-* Created often, usually not very permanent: Mastodon, X, Instagram, ...
+* Created often, usually not very permanent: Mastodon, LinkedIn, Instagram, ...
 
 
 
@@ -111,7 +111,7 @@ knitr::include_graphics("./media/linkedin.png")
 * Some features require a subscription.
 * Examples:
   - [Stephanie Eick](https://www.linkedin.com/in/stephanie-eick-phd-mph-50a0b079/)
-  - [Andrew Heiss](https://www.linkedin.com/in/andrewheiss/)
+  - [Katharina Wilkins](https://www.linkedin.com/in/katharinawilkins/)
 :::
 :::
 
@@ -138,8 +138,8 @@ knitr::include_graphics("./media/linkedin.png")
 **Facebook, Instagram, TikTok, etc.**
 
 * Widely used.
-* Potentially good way to stay connected with others.
 * Main use is **social**, not professional.
+* Potentially good way to stay connected with others.
 * Hard to keep professional and personal lives separated (unless you create 2 accounts).
 * Some people use those sites for professional purposes. Less so in academia/research.
 * Examples:
@@ -177,13 +177,13 @@ knitr::include_graphics("./media/linkedin.png")
 
 
 * Platforms for blog posts.
-* They promote posts, you can potentially get paid.
-* You can reach a wider audience than on your personal blog.
+* They promote posts, you can reach a wider audience than on your personal blog.
+* You can potentially get paid.
 * Not all content is freely available, some is behind a paywall.
 * Not as much control as on your own website.
 * Examples:
-  - [Kristian Lum](https://medium.com/@kristianlum/statistics-we-have-a-problem-304638dc5de5)
-  - [Eric Topol/Ground Truths](https://erictopol.substack.com/)
+  - [Kristian Lum](https://medium.com/@kristianlum)
+  - [Melanie Mitchell](https://substack.com/@aiguide)
 
 
 ::::{ .fragment}
@@ -203,8 +203,8 @@ knitr::include_graphics("./media/github-logo.png")
 ::: {}
 * A great tool to manage projects and work collaboratively.
 * Great way to showcase any 'products' you've made.
-* Lets you create [simple websites fairly easily](https://www.andreashandel.com/post/github-website/).
-* Somewhat technical, [takes time to get used to it](https://andreashandel.github.io/MADAcourse/1d_Github.html).
+* Lets you create [simple websites fairly easily](https://www.andreashandel.com/posts/2021-01-11-simple-github-website/).
+* Somewhat technical, [takes time to get used to it](https://andreashandel.github.io/MADAcourse/content/module-intro-tools/tools-github-introduction.html).
 :::
 ::: {}
 * Showing you know/use GitHub is a desirable skill by itself.
@@ -284,8 +284,8 @@ knitr::include_graphics("./media/youtube-logo.png")
 * Is fairly automated, you have to do very little.
 * Great way to keep track of your papers.
 * Examples:
-  - [Stephanie Eick](https://scholar.google.com/citations?user=wKXbh1UAAAAJ&hl=en&oi=ao)
-  - [Andrew Heiss](https://scholar.google.com/citations?hl=en&user=FNq1cyQAAAAJ)
+  - [Natalie Dean](https://scholar.google.com/citations?hl=en&user=H7nim_oAAAAJ&inst=15365353816232672843)
+  - [Catherine Beauchemin](https://scholar.google.ca/citations?user=DaDJG8kAAAAJ&hl=en&inst=15365353816232672843)
 
 __If I want to get a quick idea what research someone does in academia, I check their Google Scholar page. If they don't have one, I'm annoyed.__
 
@@ -362,7 +362,7 @@ __If I want to get a quick idea what research someone does in academia, I check 
 * Usually a bit more technically challenging
 * Fairly easy these days using [Quarto](https://quarto.org/docs/websites/)
 * Examples:
-  - [Andrew Heiss](https://www.andrewheiss.com/)
+  - [Zane Billings](https://wzbillings.com/)
   - [Jadey Ryan](https://jadeyryan.com/)
 
 
