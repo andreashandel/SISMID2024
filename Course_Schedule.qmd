@@ -60,7 +60,7 @@ Unit 2, 3.30PM – 5PM: Introduction to Modeling (Andreas) - [Slides](slides/202
 * Take an especially close look at the task 6 of the _Basic Bacteria_ app and the solution code for it, we will use a similar approach tomorrow.
 
 
-### **Tuesday 7/18**
+### **Thursday 7/18**
 
 Unit 3, 8.30AM - 10AM: Immunology of viral infections (Paul) - [Slides](slides/2024_Viral_Infections.pdf){target="_blank"} 	
 
@@ -71,7 +71,7 @@ Unit 5, 1:30PM – 3PM: Immunology of bacterial infections (Paul) - [Slides](sli
 Unit 6 3.30PM – 5PM: Modeling of bacterial infections (Andreas) - [Slides](slides/2024_Bacteria_Models_Slides.html){target="_blank"}
 
 
-### **Wednesday 7/20**
+### **Friday 7/19**
 
 
 Unit 7, 8.30AM - 10AM: Immunology of drug and vaccine treatments (Paul) - [Slides](slides/2024_Drug_and_Vaccine_Treatment.pdf){target="_blank"} 	
