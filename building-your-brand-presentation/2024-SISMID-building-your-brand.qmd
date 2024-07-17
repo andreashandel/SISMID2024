@@ -1,6 +1,6 @@
 ---
 title: "Building and curating your brand (online presence)"
-subtitle: "Slides: https://www.andreashandel.com/presentations"
+subtitle: "Slides: [https://www.andreashandel.com/presentations](https://www.andreashandel.com/presentations)"
 date: today
 author: "[Andreas Handel](https://www.andreashandel.com)"
 format: 
@@ -157,7 +157,7 @@ knitr::include_graphics("./media/linkedin.png")
 
 **Mastodon, X/Twitter, etc.**
 
-* Twitter used to be good for learning about new developments in an area. Musk ruined it.
+* Twitter used to be good for learning about new developments in an area. COVID and Musk ruined it.
 * Mastodon is the less toxic X alternative, not quite as good.
 * If you engage, you need to decide if you want to mix professional and personal. 
 * Consciously decide on the topics you will engage with.
@@ -352,9 +352,9 @@ __If I want to get a quick idea what research someone does in academia, I check 
 * Limited flexibility for free versions
 * Usually easy to use
 * Examples:
-  - [Emily Ricotta (Wix)](https://www.emilyricotta.com/)
   - [Katia Koelle (Wordpress)](https://scholarblogs.emory.edu/koellelab/)
   - [Micaela Martinez (Wordpress)](https://memartinez.org/)
+  - [Emily Ricotta (Wix)](https://www.emilyricotta.com/)
 
 ## Build your own
 * Using some software stack to make your own website
@@ -364,7 +364,8 @@ __If I want to get a quick idea what research someone does in academia, I check 
 * Examples:
   - [Zane Billings](https://wzbillings.com/)
   - [Jadey Ryan](https://jadeyryan.com/)
-
+* Resources:
+	- [Nice tutorial](https://jadeyryan.com/blog/2024-02-19_beginner-quarto-netlify/) and [a short summary](https://wzbillings.com/posts/2024-07-13-quarto-website-checklist/)
 
 # General thoughts and suggestions
 
