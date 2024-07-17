@@ -21,7 +21,7 @@ bibliography: ./media/SMICourse.bib
 
 ## Science needs data
 
-```{r doingscience,  echo=FALSE, fig.cap='', out.width = '100%', fig.align='center'}
+```{r doingscience,  echo=FALSE, fig.cap='[PhDComics](https://phdcomics.com/comics/archive.php?comicid=761)', out.width = '100%', fig.align='center'}
 knitr::include_graphics("./media/phd_scientificmethod.gif")
 ```
 
@@ -62,7 +62,7 @@ knitr::include_graphics("./media/studies-produce-random-results.png")
 * Simulated data is not as good as real data.
 * Often the only option.
 
-```{r modelstudies,  echo=FALSE, fig.cap='xkcd.com', out.width = '100%', fig.align='center'}
+```{r modelstudies,  echo=FALSE, fig.cap='[xkcd.com](https://xkcd.com/1831/)', out.width = '100%', fig.align='center'}
 knitr::include_graphics("./media/xkcd_algorithm_help.png")
 ```
 
@@ -77,7 +77,7 @@ knitr::include_graphics("./media/xkcd_algorithm_help.png")
 :::
 
 ::: {.column width="50%"}
-```{r modelsketch,  echo=FALSE, fig.cap='', out.width = '100%', fig.align='center'}
+```{r modelsketch,  echo=FALSE, fig.cap='Handel et al 2020 NRI', out.width = '100%', fig.align='center'}
 knitr::include_graphics("./media/nri_review_fig2.png")
 ```
 :::
@@ -110,7 +110,7 @@ knitr::include_graphics("./media/nri_review_fig2.png")
 :::
 
 ::: {.column width="50%"}
-```{r curvefitting2,  fig.cap="xkcd.com", echo=FALSE, out.width = '70%', fig.align='center'}
+```{r curvefitting2,  fig.cap="[xkcd.com](https://xkcd.com/2048/)", echo=FALSE, out.width = '70%', fig.align='center'}
 knitr::include_graphics("./media/xkcd-curve_fitting.png")
 ```
 :::
@@ -135,7 +135,7 @@ knitr::include_graphics("./media/wu_natcomm.png")
 :::
 
 ::: {.column width="50%"}
-```{r xmkcml,  fig.cap="xkcd.com", echo=FALSE, out.width = '100%', fig.align='center'}
+```{r xmkcml,  fig.cap="[xkcd.com](https://www.xkcd.com/2289/)", echo=FALSE, out.width = '100%', fig.align='center'}
 knitr::include_graphics("./media/xkcd-scenario-forcasting.png")
 ```
 :::
@@ -152,7 +152,7 @@ knitr::include_graphics("./media/xkcd-scenario-forcasting.png")
 :::
 
 ::: {.column width="50%"}
-```{r mldilbert,  fig.cap="xkcd.com", echo=FALSE, out.width = '80%', fig.align='center'}
+```{r mldilbert,  fig.cap="[xkcd.com](https://xkcd.com/1838/)", echo=FALSE, out.width = '80%', fig.align='center'}
 knitr::include_graphics("./media/xkcd-machine_learning.png")
 ```
 :::
@@ -170,7 +170,7 @@ knitr::include_graphics("./media/xkcd-machine_learning.png")
 :::
 
 ::: {.column width="50%"}
-```{r idprocess,  fig.cap="", echo=FALSE, out.width = '90%', fig.align='center'}
+```{r idprocess,  fig.cap="Handel et al 2020 NRI", echo=FALSE, out.width = '90%', fig.align='center'}
 knitr::include_graphics("./media/nri_review_fig3.png")
 ```
 :::
@@ -524,7 +524,7 @@ knitr::include_graphics("./media/nri_review_fig3a.png")
 </div>
 
 <div style="float: right; width: 50%;">
-```{r nribacteria,  out.width = '100%', echo=FALSE, fig.align='center'}
+```{r nribacteria,  out.width = '100%', fig.cap='Handel et al 2020 NRI', echo=FALSE, fig.align='center'}
 knitr::include_graphics("./media/nri_review_fig3.png")
 ```
 </div>

@@ -9,7 +9,6 @@ project:
     - "!LICENSE.md"
     - "!myresources/"
     - "!renv/"
-    - "!slides/*"
     - "!certificate*"
   resources:
     - "files/"
