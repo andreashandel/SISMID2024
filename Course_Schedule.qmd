@@ -76,7 +76,7 @@ Unit 6 3.30PM – 5PM: Modeling of bacterial infections (Andreas) - [Slides](sli
 
 Unit 7, 8.30AM - 10AM: Immunology of drug and vaccine treatments (Paul) - [Slides](slides/2024_Drug_and_Vaccine_Treatment.pdf){target="_blank"} 	
 
-Unit 8, 10.30AM - noon: Modeling drug and vaccine treatments (Andreas) - [Slides](slides/2024_Vaccines_Drugs_Slides.html){target="_blank"}
+Unit 8, 10.30AM - noon: Modeling drug and vaccine treatments (Andreas) - [Slides](slides/2024_Vaccines_Drugs_Slides.html){target="_blank"}, [Code 1](code/simulate_pkpdbacteria_ode.R), [Code 2](code/test_pkpdbacteria.R).
 
 Unit 9, 1:30PM – 3PM: Requested topics and a worked modeling example I (Andreas/Paul) - [Slides](slides/2024_Multiscale_Fitting_Project.html){target="_blank"}
  

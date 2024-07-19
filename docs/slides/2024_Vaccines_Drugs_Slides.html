@@ -1220,7 +1220,7 @@ e &amp; = E_{max} \frac{C^k}{C^k+C_{50}} \qquad \textrm{(PD)}
 <h2>Example 3</h2>
 <p><span class="math display">\[
 \begin{aligned}
-\dot{B} &amp; = g B(1-\frac{B}{B_{max}}) - d_B B - kBI \color{blue}{- f(C)B}\\
+\dot{B} &amp; = g B(1-\frac{B}{B_{max}}) - d_B B - pBI \color{blue}{- f(C)B}\\
 \dot{I} &amp; = r BI - d_I I \\
 \color{blue}{\dot{C}} &amp; \color{blue}{= ?}
 \end{aligned}
@@ -1231,7 +1231,7 @@ e &amp; = E_{max} \frac{C^k}{C^k+C_{50}} \qquad \textrm{(PD)}
 <h2>Example 3</h2>
 <p><span class="math display">\[
 \begin{aligned}
-\dot{B} &amp; = g B(1-\frac{B}{B_{max}}) - d_B B - kBI  - eB\\
+\dot{B} &amp; = g B(1-\frac{B}{B_{max}}) - d_B B - pBI  - eB\\
 \dot{I} &amp; = r BI - d_I I \\
 \dot C &amp; =  - d_C C, \qquad C=C+C_0 \textrm{ at } t = t_{interval} \qquad \textrm{(PK)}\\
 e &amp; = E_{max} \frac{C^k}{C^k+C_{50}} \qquad \textrm{(PD)}
@@ -1248,6 +1248,7 @@ e &amp; = E_{max} \frac{C^k}{C^k+C_{50}} \qquad \textrm{(PD)}
 <li><p>Get the code/simulation model for the Basic Bacteria model and the PK/PD model, namely <code>simulate_basicbacteria_ode.R</code> and <code>simulate_pkpdmodel_ode.R</code>.</p></li>
 <li><p>Take a look at both R files. All the stuff at the top (any line that starts with <code>#&#39;</code>) is just documentation and you can mostly ignore.</p></li>
 <li><p>Make a copy of <code>simulate_pkpdmodel_ode.R</code>. You can delete the documentation portion. Modify the code by replacing the <span class="math inline">\(U/I/V\)</span> part of the model with the <span class="math inline">\(B/I\)</span> part from the bacteria model.</p></li>
+<li><p>Definitions/letters for some parameters might have changed between apps. Make sure you call/define them correctly.</p></li>
 <li><p>This might be a bit challenging, but we’ll assist.</p></li>
 </ul>
 

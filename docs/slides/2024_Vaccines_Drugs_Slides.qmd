@@ -77,7 +77,7 @@ e & = E_{max} \frac{C^k}{C^k+C_{50}} \qquad \textrm{(PD)}
 
 $$
 \begin{aligned}
-\dot{B} & = g B(1-\frac{B}{B_{max}}) - d_B B - kBI \color{blue}{- f(C)B}\\
+\dot{B} & = g B(1-\frac{B}{B_{max}}) - d_B B - pBI \color{blue}{- f(C)B}\\
 \dot{I} & = r BI - d_I I \\
 \color{blue}{\dot{C}} & \color{blue}{= ?}
 \end{aligned}
@@ -90,7 +90,7 @@ A drug at concentration $C$ leads to extra killing of bacteria (PD). The drug ha
 
 $$
 \begin{aligned}
-\dot{B} & = g B(1-\frac{B}{B_{max}}) - d_B B - kBI  - eB\\
+\dot{B} & = g B(1-\frac{B}{B_{max}}) - d_B B - pBI  - eB\\
 \dot{I} & = r BI - d_I I \\
 \dot C & =  - d_C C, \qquad C=C+C_0 \textrm{ at } t = t_{interval} \qquad \textrm{(PK)}\\
 e & = E_{max} \frac{C^k}{C^k+C_{50}} \qquad \textrm{(PD)}
@@ -108,5 +108,7 @@ $$
 * Take a look at both R files. All the stuff at the top (any line that starts with `#'`) is just documentation and you can mostly ignore.
 
 * Make a copy of `simulate_pkpdmodel_ode.R`. You can delete the documentation portion. Modify the code by replacing the $U/I/V$ part of the model with the $B/I$ part from the bacteria model.
+
+* Definitions/letters for some parameters might have changed between apps. Make sure you call/define them correctly.
 
 * This might be a bit challenging, but we'll assist.
