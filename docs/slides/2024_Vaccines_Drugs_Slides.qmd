@@ -90,10 +90,10 @@ A drug at concentration $C$ leads to extra killing of bacteria (PD). The drug ha
 
 $$
 \begin{aligned}
-\dot{B} & = g B(1-\frac{B}{B_{max}}) - d_B B - pBI  - eB\\
+\dot{B} & = g B(1-\frac{B}{B_{max}}) - d_B B - k_IBI  - eB\\
 \dot{I} & = r BI - d_I I \\
 \dot C & =  - d_C C, \qquad C=C+C_0 \textrm{ at } t = t_{interval} \qquad \textrm{(PK)}\\
-e & = E_{max} \frac{C^k}{C^k+C_{50}} \qquad \textrm{(PD)}
+e & = E_{max} \frac{C^n}{C^n+C_{50}} \qquad \textrm{(PD)}
 \end{aligned}
 $$
 

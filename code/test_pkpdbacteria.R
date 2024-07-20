@@ -1,4 +1,7 @@
 library(DSAIRM)
+# make sure this file and the one called by the 
+# source comment below are in the same folder, 
+# and your current working directory is also set to that folder
 source("simulate_pkpdbacteria_ode.R")
 
 # running new bacteria model with drug PK/PD to explore impact of drug
